@@ -17,7 +17,7 @@
     </header>
     <footer>
         <p>&copy; 2024 Lyceum School. All rights reserved.</p>
-        <a href="http://127.0.0.1:8000/">Back to Main Site</a> <!-- Ссылка на основной сайт -->
+        <a href="{{route('home')}}">Back to Main Site</a> <!-- Ссылка на основной сайт -->
     </footer>
 </body>
 </html>

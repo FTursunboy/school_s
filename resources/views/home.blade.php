@@ -10,15 +10,15 @@
     <!-- Шапка -->
     <header>
     <h1>Physical-Mathematical Lyceum #1 by name M.Osimi</h1>
-    <p>Сайт создан для курсового проекта 3 курса. Это не основной сайт школы</p> 
+    <p>Сайт создан для курсового проекта 3 курса. Это не основной сайт школы</p>
         <div class="logo">
             <img src="{{ asset('images/logo.jpg') }}" alt="Lyceum #1 Logo">
         </div>
         <nav>
-            <a href="http://127.0.0.1:8000/">Home</a>
-            <a href="/about">About</a>
-            <a href="/schedule">Schedule</a>
-            <a href="/contact">Contact</a>
+            <a href="{{route('home')}}/">Home</a>
+            <a href="{{route('about')}}">About</a>
+            <a href="{{route('schedule')}}">Schedule</a>
+            <a href="{{route('contact')}}">Contact</a>
         </nav>
     </header>
 
@@ -26,7 +26,7 @@
     <section class="hero">
         <h1>Back to School</h1>
         <p>Welcome to all of our students</p>
-        <a href="/contact" class="btn">Discover the School</a>
+        <a href="{{route('contact')}}" class="btn">Discover the School</a>
     </section>
 
     <!-- Информационные секции -->
@@ -41,20 +41,20 @@
             <h2>Week News</h2>
             <img src="{{ asset('images/enrollment.jpg') }}" alt="Open Enrollment">
             <p>Stay up to date with the latest news and events at Lyceum #1. There are always exciting events and activities happening at our school that you need to know about!</p>
-            <a href="/news" class="btn">Day News</a>
+            <a href="{{route('news')}}" class="btn">Day News</a>
         </div>
     </section>
 
     <!-- Футер -->
     <footer>
- 
+
 <div>
             <h3>Quick Navigation</h3>
             <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/news">News</a></li>
-                <li><a href="/schedule">Schedule</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="{{route('about')}}">About</a></li>
+                <li><a href="{{route('news')}}">News</a></li>
+                <li><a href="{{route('schedule')}}">Schedule</a></li>
+                <li><a href="{{route('contact')}}">Contact</a></li>
             </ul>
         </div>
         <div class="footer-column">
@@ -73,7 +73,7 @@
                 <li>Email:lyceum.1.@school.tj</li>
             </ul>
         </div>
-        
+
     </footer>
 </body>
 </html>
