@@ -8,10 +8,10 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
-Route::get('{{route('about')}}', function () {
+Route::get('/about', function () {
     return view('about');
 })->name('about');
-Route::get('{{route('contact')}}', function () {
+Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 Route::get('/schedule', function () {
