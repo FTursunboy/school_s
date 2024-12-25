@@ -1,0 +1,104 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c2c54;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Герой-секция */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #2c2c54;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Секции */
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card .btn {
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Футер */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c2c54;
+    color: white;
+}
+
+footer img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
